@@ -1,0 +1,18 @@
+
+.bodybg{
+    -fx-background-image : url("BG.jpg");
+
+    -fx-background-size : 100% 100%;
+}
+.bodybackground{
+    -fx-background-image : url("J.jpg");;
+    -fx-background-size : 100% 100%;
+}
+.Adminbg{
+    -fx-background-image : url("background.jpg");;
+    -fx-background-size : 100% 100%;
+}
+.Sobsbg{
+    -fx-background-image : url("sobsbg.jpg");;
+    -fx-background-size : 100% 100%;
+}

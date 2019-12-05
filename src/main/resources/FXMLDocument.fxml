@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="426.0" prefWidth="565.0" styleClass="bodybg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.FXMLDocumentController">
+   <children>
+
+      <TextField fx:id="textUsername" layoutX="329.0" layoutY="156.0" prefHeight="25.0" prefWidth="157.0" />
+      <PasswordField fx:id="textPassword" layoutX="329.0" layoutY="198.0" prefHeight="25.0" prefWidth="157.0" />
+      <Label ellipsisString="" layoutX="233.0" layoutY="156.0" prefHeight="25.0" prefWidth="96.0" text="Потребител:" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.044444465637206984" endY="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color opacity="0.02421652525663376" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.2963386727688787">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="242.0" layoutY="191.0" onDragEntered="#loginAction" prefHeight="32.0" prefWidth="77.0" text="Парола:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.7460316975911458" endY="0.33968253930409753" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color opacity="0.02421652525663376" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.2963386727688787">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Button layoutX="384.0" layoutY="246.0" mnemonicParsing="false" onAction="#loginAction" prefWidth="68.0" text="Логин">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Text fill="WHITE" layoutX="50.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Складова Система" textAlignment="CENTER" wrappingWidth="521.2392578125">
+         <font>
+            <Font name="Arial" size="43.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
