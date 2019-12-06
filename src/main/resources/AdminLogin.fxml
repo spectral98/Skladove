@@ -10,17 +10,17 @@
             <menus>
                 <Menu mnemonicParsing="false" text="Create">
                     <items>
-                        <MenuItem mnemonicParsing="false" text="Close" />
+                        <MenuItem mnemonicParsing="false" text="Agent" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="Dashboard">
                     <items>
-                        <MenuItem mnemonicParsing="false" text="Delete" />
+                        <MenuItem mnemonicParsing="false" text="Query" />
                     </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="Help">
+                <Menu mnemonicParsing="false" text="Close">
                     <items>
-                        <MenuItem mnemonicParsing="false" text="About" />
+                        <MenuItem mnemonicParsing="false" text="CloseApplication" />
                     </items>
                 </Menu>
             </menus>
